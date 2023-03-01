@@ -1,0 +1,34 @@
+<%- include('partials/head') %>
+<link rel="stylesheet" href="/css/auth.css" />
+<%- include('partials/nav') %>
+<div class="join-container">
+	<main class="join-main">
+		<header class="join-header">
+			<h1>Create Room</h1>
+		</header>
+		<form action="/create" method="POST" class="form" novalidate>
+			<div class="form-element">
+				<input type="text" name="name" autocomplete="off" required id="name"
+					value="<%= typeof name != 'undefined' ? name : '' %>">
+				<label for="name" class="label"><span class="animated-label">Name</span></label>
+				<div class="error">
+					<p class="error-txt" id="name-e">Please fill out this field</p>
+				</div>
+			</div>
+			<div class="form-util">
+				<input id="submit" type="submit" value="Create Room">
+			</div>
+		</form>
+	</main>
+</div>
+<%- include('partials/bottomnav') %>
+</body>
+<script>
+	document.getElementById("name").addEventListener('keypress', (e) => {
+        var key = e.code;
+        if (key === 'Space' || e.key === ' ') {
+            e.preventDefault();
+        }
+    })
+</script>
+</html>
