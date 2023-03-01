@@ -10,10 +10,11 @@ chatter is an web app where it allows users to create sections or rooms and comm
    <img width="1433" alt="invitation to join sections" src="https://user-images.githubusercontent.com/61595122/222039405-8476f553-e361-429b-85cd-4cc8cd895e1d.png">
     sent invitation to other user to join their sections
     
-    <img width="1390" alt="invitation received" src="https://user-images.githubusercontent.com/61595122/222039493-bc964e1f-a481-4a50-ae3d-8165dc868c5c.png">
-    Invitation received
-    
-    <img width="1425" alt="chat page" src="https://user-images.githubusercontent.com/61595122/222039768-60b9fcac-dbf1-469c-8c1e-906df08f5e29.png">
-      CHAT PAGE
+  
       
       
+<img width="1390" alt="invitation received" src="https://user-images.githubusercontent.com/61595122/222040426-389bb8cd-ca5c-407c-90e0-464f7bbb1a4c.png">
+invitation received
+
+<img width="1425" alt="chat page" src="https://user-images.githubusercontent.com/61595122/222040492-be3576d7-94d0-4784-be70-bf0e9f6a5e24.png">
+chat Page
