@@ -57,8 +57,9 @@ app.get("/", (req, res) => {
   res.redirect("/login");
 });
 //mongodb://127.0.0.1:27017/chatterDB"
+
 mongoose.connect(
-  mongodbUri,
+  "mongodb+srv://saradchhetri20690:Lu77pa@7882@cluster0.tfmjtz7.mongodb.net/",
   { useUnifiedTopology: true, useNewUrlParser: true },
   (err, database) => {
     if (err) {
