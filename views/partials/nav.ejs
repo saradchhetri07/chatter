@@ -1,0 +1,12 @@
+<div class="navbar full-black-nav navbar-dark bg-dark">
+    <div onclick="location.href='/home'" class="brand">
+        <h1 class="heading" style="color: white; font-family: 'Montserrat', sans-serif;"> <span
+                class="hide">CHATTER</span></h1>
+    </div>
+    <% if (user) { %>
+    <div class="nav-menus">
+        <a class="home" href="/home" style="color: white; font-family: 'Montserrat', sans-serif;">Home</a>
+        <a href="/<%= user.username %>/usettings" style="color: white;"><i class="fas fa-cog"></i></a>
+    </div>
+    <% } %>
+</div>
